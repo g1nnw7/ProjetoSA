@@ -24,3 +24,6 @@ function calcularIMC(){
    document.getElementById("resultado").innerHTML = `O seu IMC é: ${ imc } (${ resultado2 })`;
    document.getElementById("imagem").style.display= ''
 }
+function redirecionar(){
+  window.location.href = "home.html";
+}
