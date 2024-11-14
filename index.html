@@ -14,6 +14,7 @@
         <h1>
             O que é IMC? <br>
         </h1>
+        <div id="botaoimc">
         <p>
 A fórmula do Índice de Massa Corporal foi criada por um matemático belga chamado Lambert Quételet, no século 19. Na época, ela ganhou o nome de “Índice de Quételet”, mas, décadas mais tarde, a Organização Mundial da Saúde atribuiu o nome que conhecemos atualmente <br>
 
@@ -22,6 +23,25 @@ O cálculo é muito útil para identificar se o indivíduo está com o peso idea
 Apesar de ser fácil de calcular, sendo acessível a qualquer pessoa, é importante ter cautela e só tirar conclusões a partir de uma consulta com um profissional da saúde. O endocrinologista e o nutricionista são os profissionais mais capacitados para avaliar o IMC e explicar ao paciente como está sua saúde. <br>
         </p>
     </div>
+    </div>
+    <div id="botoes">
+        <label for="calcularIMC">Digite seu peso corporal e altura⠀</label>
+        <input type="text" id="imcpeso" placeholder="Ex:75kg">
+        <input type="text" id="imcaltura" placeholder="Ex:1,75m">
+        <button onclick="calcularIMC()">Calcular IMC</button>
+    </div>
+    <div id="resultado">
+        <p>
+            Digite as informações solicitadas
+        </p>
+    </div>
+    <!-- <div id="trocarjanela">
+        <button onclick="redirecionar()">Redirecionar</button>
+    </div> -->
+    <div class="lateral">
+         </div>
+         <button onclick="imcpeso()">Oque é IMC?</button>
+        <button onclick="semimc()">Ja entendi oque é IMC</button>
     <script src="script.js"></script>
 </body>
 </html>
