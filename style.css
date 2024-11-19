@@ -1,20 +1,4 @@
-/* body{ 
-    background-image: url(pexels-ella-olsson-572949-1640777.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    justify-content: center;
-    filter: gaussian-blur(5px);
-  }*/
 
-/*#fundo{ 
-    background-image: url(pexels-ella-olsson-572949-1640777.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    justify-content: center;
-    filter: gaussian-blur(5px);
-  }*/
-
-/* Define o estilo para o elemento com o id "fundo" */
 #fundo {
   background-image: url(pexels-ella-olsson-572949-1640777.jpg);  /* Define a imagem de fundo para o elemento */
   background-repeat: no-repeat;  /* Define a repetição da imagem de fundo */
@@ -48,7 +32,48 @@
     justify-content: center;
     align-items: center;
     height: 35vh;
-     text-shadow: 2px 2px 11px rgb(36, 36, 36);
+    text-shadow: 2px 2px 11px rgb(0, 0, 0);
      
 }
-    
+#botoes{
+  text-align: center;
+  border: radius 50px;
+  font-size: 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: rgb(255, 255, 255);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px 11px rgb(0, 0, 0);
+}
+#trocarjanela{
+  text-align: center;
+  height: 100px;
+  border: radius 50px;  
+  font-size: 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: rgb(255, 255, 255);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px 11px rgb(0, 0, 0);
+}
+#resultado{
+  text-align: center;
+  border: radius 50px;
+  height: 35px;
+  font-size: 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: rgb(255, 255, 255);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px 11px rgb(0, 0, 0);
+}
+#link{
+  display: none;
+  color: pink
+}
