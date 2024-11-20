@@ -26,4 +26,14 @@
   }
   #resultado2{
     position: absolute;
-  }
+  }  
+  table {
+    width: 100%;
+    border-collapse: collapse; /* Remove espaços entre as células */
+}
+  td {
+    border: 1px solid #ddd; /* Define borda */
+    padding: 8px; /* Espaçamento interno */
+    text-align: left; /* Alinhamento do texto */
+}
+
