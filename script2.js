@@ -1,4 +1,5 @@
-function gerarDieta(){
+document.addEventListener("DOMContentLoaded", function(){
+
     let IMC = JSON.parse(localStorage.getItem("imcResultado"))
     if(IMC < 18.5){
       resultado3 = "Necessário Ganho de peso saudável	- Dieta hipercalórica (acima das necessidades diárias). Focar em alimentos ricos em nutrientes e calorias densas (ex: abacate, castanhas, óleos saudáveis). Incluir proteínas para ganho muscular (ex: carnes magras, ovos, leguminosas). Fracionar as refeições em 5-6 vezes ao dia."
@@ -10,5 +11,6 @@ function gerarDieta(){
       resultado3 = "Dieta rigorosamente hipocalórica com acompanhamento profissional.  Aumento do consumo de proteínas para preservar a massa muscular durante o emagrecimento (ex: frango, ovos, peixe). Evitar alimentos altamente processados e ricos em açúcares e gorduras trans. Refeições pequenas e frequentes, controlando porções."
     }
        document.getElementById("resultado2").innerHTML = `De acordo com seu IMC: ${ IMC } (${ resultado3 })`;
-    }
+       console.log("DOM pronto!")
+    })
   
