@@ -1,6 +1,6 @@
 
 #fundo {
-  background-image: url(pexels-ella-olsson-572949-1640777.jpg);  /* Define a imagem de fundo para o elemento */
+  background-image: url(3667982.jpg);  /* Define a imagem de fundo para o elemento */
   background-repeat: no-repeat;  /* Define a repetição da imagem de fundo */
   background-size: cover;   /* Define o tamanho da imagem de fundo para cobrir todo o elemento */
   justify-content: center;   /* Define a justificação do conteúdo dentro do elemento */
@@ -40,7 +40,7 @@
   border: radius 50px;
   font-size: 25px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  color: rgb(255, 255, 255);
+  color: pink;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   display: flex;
   justify-content: center;
