@@ -1,6 +1,6 @@
 
 #fundo {
-  background-image: url(3667982.jpg);  /* Define a imagem de fundo para o elemento */
+  background-image: url(IMAGENS/3667982.jpg);  /* Define a imagem de fundo para o elemento */
   background-repeat: no-repeat;  /* Define a repetição da imagem de fundo */
   background-size: cover;   /* Define o tamanho da imagem de fundo para cobrir todo o elemento */
   justify-content: center;   /* Define a justificação do conteúdo dentro do elemento */

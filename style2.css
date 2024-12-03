@@ -1,5 +1,5 @@
 #fundo{
-    background-image: url(green-vegetables-fruits-seamless-pattern-600nw-2464357011.webp);  /* Define a imagem de fundo para o elemento */
+    background-image: url(IMAGENS/green-vegetables-fruits-seamless-pattern-600nw-2464357011.webp);  /* Define a imagem de fundo para o elemento */
     background-repeat: no-repeat;  /* Define a repetição da imagem de fundo */
     background-size: cover;   /* Define o tamanho da imagem de fundo para cobrir todo o elemento */
     justify-content: center;   /* Define a justificação do conteúdo dentro do elemento */
@@ -35,5 +35,18 @@
     border: 1px solid #ddd; /* Define borda */
     padding: 8px; /* Espaçamento interno */
     text-align: left; /* Alinhamento do texto */
+}
+/* EXEMPLO */
+.caixa-info1,
+.caixa-info2,
+.caixa-info3 {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  background-color: #f3fffa;
+  font-size: 19px;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 2px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
