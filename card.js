@@ -6,3 +6,7 @@ function saibaMais1(){
 function saibaMais2(){
     window.location.href= "calcMacro.html"
 }
+
+function SaibaMais3(){
+    window.location.href= "calcCal.html"
+}
