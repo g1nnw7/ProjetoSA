@@ -57,6 +57,45 @@ background-color: hsla(120, 98%, 43%, 0.667) ;
 scale: 1.1;
 transition-duration: 0.5s;
 }
-.login button{
+.loginButton button{
+    height: 20px;
+    width: 70px;
     position: fixed; top: 10px; right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(111, 143, 111);
+    margin-right: 2%;
+    border-radius: 1.5vh;
+    font-size: 1.7vh;
+    margin-block: 0.5%;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+.registrarButton button{
+    height: 20px;
+    width: 70px;
+    position: fixed; top: 10px; right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(255, 255, 255, 0);
+    margin-right: 5%;
+    border-radius: 1.5vh;
+    font-size: 1.7vh;
+    margin-block: 0.5%;
+    cursor: pointer;
+    border: 0.4vh solid #F8F6F3;
+    color: white;
+}
+.registrarButton button:hover{
+    background-color: hsla(34, 98%, 43%, 0.667) ;
+scale: 1.1;
+transition-duration: 0.5s;
+}
+.loginButton button:hover{
+    background-color: hsla(120, 98%, 43%, 0.667) ;
+scale: 1.1;
+transition-duration: 0.5s;
 }
