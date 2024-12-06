@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <title>NutriFIT</title>
     <link rel="website icon" type="png" href="IMAGENS/cenoura.png">
     <link rel="stylesheet" href="styleMacro.css">
 </head>
+
 <body>
     <div id="fundo">
         <!-- Fundo da página -->
-   </div>
-    
+    </div>
+
     <h1>Calculadora de Macronutrientes</h1>
     <h2>Use a ferramenta para manter controle sobre seus macronutrientes e alcançar seu objetivo!</h2>
 
@@ -43,18 +45,18 @@
         <tbody>
             <!-- Linhas de dados serão adicionadas aqui dinamicamente -->
         </tbody>
-   
-   
+
+
     </table>
-   
-</body>
-</html>
-
-
-    <script src="scriptMacro.js"></script>
-</body>
-</html>
-
+    <!-- Definição do modal -->
+    <div id="modalExcluir" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Deseja realmente excluir o alimento <span id="macroAlimento"></span>?</p>
+            <button id="confirmarExcluir">Excluir</button>
+            <button id="cancelarExcluir">Cancelar</button>
+        </div>
+    </div>
     <!-- Definição do modal -->
     <div id="myModal" class="modal">
         <div class="modal-content">
@@ -62,3 +64,7 @@
             <p>Alimento cadastrado com sucesso</p>
         </div>
     </div>
+    <script src="scriptMacro.js"></script>
+</body>
+
+</html>
