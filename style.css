@@ -39,7 +39,7 @@
   text-align: center;
   border: radius 50px;
   font-size: 25px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
   color: pink;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   display: flex;
@@ -52,7 +52,7 @@
   height: 100px;
   border: radius 50px;  
   font-size: 25px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
   color: rgb(255, 255, 255);
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   display: flex;
@@ -65,7 +65,7 @@
   border: radius 50px;
   height: 35px;
   font-size: 25px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
   color: rgb(255, 255, 255);
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   display: flex;
@@ -76,4 +76,8 @@
 #link{
   display: none;
   color: pink
+}
+.fundoBlur{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-shadow: 2px 2px 11px rgb(0, 0, 0);
 }
