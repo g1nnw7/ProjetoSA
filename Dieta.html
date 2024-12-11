@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="dieta.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="website icon" type="png" href="IMAGENS/cenoura.png">
+    <title>Diet Planner</title>
+</head>
+<body>
+    <div id="fundo">
+         <!-- Fundo da página -->
+    </div>
+    <div id="escrita">
+        <h1>
+            Como planejar sua dieta? <br>
+        </h1>
+        <p>
+            Para definir a dieta devemos primeiramente descobrir o consumo de calorias diários necessários para o funcionamento do nosso corpo, como batimentos cardíacos e respiração. Esse consumo se chama Gasto metabólica basal.
+            Após isso, calculamos o gasto total da pessoa, que é determinado pelos diferentes tipos de atividades feitas no dia a dia.
+<br><br>
+            Após coletar os dados, definimos o estilo da dieta, sendo restritiva (cutting) cortando de 10% a 20% dos macronutrientes para emagrecimento ou hipertrófica (bulking) aumentando de 10 a 20% os macronutrientes para ganho de massa muscular. <br><br>
+            A porcentagem do aumento ou restrição de calorias define a velocidade da mudança corporal. Mas também pode trazer malefícios, como fraqueza ou ganho exagerado de gordura.
+        </p>
+
+        <h1>Calcule seu gasto metabólico:</h1>
+    </div>
+    <div class="fundoBlur">
+    <form id="botoes">
+        <label for="genero">Selecione seu gênero biológico:⠀</label>
+        <input type="radio" name="genero" value="masculino"> Masculino
+        <input type="radio" name="genero" value="feminino"> Feminino
+    </form>
+    <form id="botoes">
+        <label for="peso">Digite seu peso em quilos:⠀</label>
+        <input type="text" id="peso" placeholder="75">
+        
+    </form>
+
+    <form id="botoes">
+        <label for="genero">Digite sua altura em centímetros:⠀</label>
+        <input type="text" id="altura" placeholder="175">
+    </form>
+    <form id="botoes">
+        <label for="genero">Digite sua idade:⠀</label>
+        <input type="text" id="idade" placeholder='25'>
+        <button onclick="calcularGMT()" id="buttonGMT">Calcular GMT</button>
+    </form>
+    <div id="resultado">
+        <p>
+            Envie as informações solicitadas!   
+        </p>
+    </div>
+    <div id="trocarjanela">
+        <button onclick="buttonTJ()" id="buttonTJ">Dietas & Saúde</button>
+    </div>
+
+</div>
+    <div class="lateral">
+        
+    </div>
+    <script src="scriptDieta.js"></script>
+</body>
+</html>

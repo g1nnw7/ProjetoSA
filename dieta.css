@@ -1,0 +1,137 @@
+#fundo {
+    background-image: url(IMAGENS/3.png);  /* Define a imagem de fundo para o elemento */
+    background-repeat: no-repeat;  /* Define a repetição da imagem de fundo */
+    background-size: cover;   /* Define o tamanho da imagem de fundo para cobrir todo o elemento */
+    justify-content: center;   /* Define a justificação do conteúdo dentro do elemento */
+    position: absolute;   /* Define a posição do objeto ONDE VC QUISER!!!! */
+    top: 50%;   /* Define a posição do elemento no centro da página */
+    left: 50%;
+    transform: translate(-50%, -50%);   /* Transforma a posição do elemento para que ele fique no centro da página */
+    width: 100%;   /* Define a largura e altura do elemento para que ele ocupe todo o espaço disponível */
+    height: 100%;
+    z-index: -1;   /* Define a ordem de empilhamento do elemento para que ele fique atrás do conteúdo */
+  }
+  #escrita h1{
+      text-align: center;
+      color: rgb(255, 255, 255);
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 16vh;
+       text-shadow: 2px 2px 11px rgb(0, 0, 0);
+    }
+  #escrita p{
+      text-align: center;
+      font-size: 25px;
+      color: rgb(255, 255, 255);
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 35vh;
+      text-shadow: 2px 2px 11px rgb(0, 0, 0);
+       
+  }
+  #botoes{
+    text-align: center;
+    border: radius 50px;
+    font-size: 25px;
+    color:rgb(111, 143, 111);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 11px rgb(116, 115, 115);
+  }
+  #trocarjanela{
+    text-align: center;
+    height: 100px;
+    border: radius 50px;  
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 11px rgb(0, 0, 0);
+  }
+  #resultado{
+    text-align: center;
+    border: radius 50px;
+    height: 35px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 11px rgb(0, 0, 0);
+  }
+  #buttonTJ{
+    display: none;
+    height: 50px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(0, 0%, 100%, 0.667) ;
+    border-radius: 3vh;
+    font-size: 2vh;
+    cursor: pointer;
+    color:rgb(111, 143, 111);
+    border: none;
+  }
+  #buttonTJ:hover{
+    background-color:rgb(111, 143, 111);
+    color: hsl(0, 0%, 100%) ;
+    scale: 1.1;
+    transition-duration: 0.5s;
+    }
+  .fundoBlur{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  #imcpeso{
+    height: 20px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(0, 0%, 100%, 0.667) ;
+    border-radius: 3vh;
+    font-size: 1.5vh;
+    cursor: pointer;
+  
+  }
+  #imcaltura{
+    margin-left: 5px;
+    height: 20px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(0, 0%, 100%, 0.667) ;
+    border-radius: 3vh;
+    font-size: 1.5vh;
+    cursor: pointer;
+  }
+  #buttonGMT{
+    margin-left: 15px;
+    height: 20px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(111, 143, 111);
+    border-radius: 3vh;
+    font-size: 1.5vh;
+    cursor: pointer;
+    color: white;
+    border: none;
+  }
+  #buttonGMT:hover{
+    color:rgb(111, 143, 111);
+    background-color: hsl(0, 0%, 100%) ;
+    scale: 1.1;
+    transition-duration: 0.5s;
+  }
+  
