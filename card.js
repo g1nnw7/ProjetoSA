@@ -8,5 +8,5 @@ function saibaMais2(){
 }
 
 function SaibaMais3(){
-    window.location.href= "calcCalo.html"
+    window.location.href= "dieta.html"
 }
