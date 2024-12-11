@@ -21,6 +21,10 @@ document.addEventListener("DOMContentLoaded", function(){
     document.getElementById("caixaid1").innerHTML = `Dieta rigorosamente hipocalórica com acompanhamento profissional.`
     document.getElementById("caixaid2").innerHTML = "Aumento do consumo de proteínas para preservar a massa muscular durante o emagrecimento (ex: frango, ovos, peixe)."
     document.getElementById("caixaid3").innerHTML = "Evitar alimentos altamente processados e ricos em açúcares e gorduras trans. Refeições pequenas e frequentes, controlando porções."
+  }  else if(IMC >= 34.9){
+    document.getElementById("caixaid1").innerHTML = `Dieta rigorosamente hipocalórica com acompanhamento profissional.`
+    document.getElementById("caixaid2").innerHTML = "Aumento do consumo de proteínas para preservar a massa muscular durante o emagrecimento (ex: frango, ovos, peixe)."
+    document.getElementById("caixaid3").innerHTML = "Evitar alimentos altamente processados e ricos em açúcares e gorduras trans. Refeições pequenas e frequentes, controlando porções."
   }
 })
 
