@@ -24,8 +24,10 @@ function calcularIMC(){
     resultado2 = "Obesidade Grau III"
    }
     document.getElementById("resultado").innerHTML = `O seu IMC é: ${ imc } (${ resultado2 })`;
-    document.getElementById("link").style.display = 'block'
+    document.getElementById("buttonTJ").style.display = 'block'
     
 }
-
+function buttonTJ(){
+    window.location.href="home.html"
+}
 

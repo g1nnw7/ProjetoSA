@@ -8,7 +8,7 @@ body{
     align-items: center;
     height: 100vh;
     gap: 16px;
-    background-image: url(IMAGENS/fundocard.png);
+    background-image: url(IMAGENS/2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -43,7 +43,7 @@ body{
     color: hsla(0, 0%, 67%, 0.667)
 }
 .card button{
-    background-color: #2192FF;
+    background-color:rgb(111, 143, 111);
     height: 30px;
     border: none;
     padding: 4px;
@@ -58,8 +58,8 @@ scale: 1.1;
 transition-duration: 0.5s;
 }
 .loginButton button{
-    height: 20px;
-    width: 70px;
+    height: 30px;
+    width: 90px;
     position: fixed; top: 10px; right: 10px;
     display: flex;
     justify-content: center;
@@ -74,8 +74,8 @@ transition-duration: 0.5s;
     border: none;
 }
 .registrarButton button{
-    height: 20px;
-    width: 70px;
+    height: 30px;
+    width: 90px;
     position: fixed; top: 10px; right: 50px;
     display: flex;
     justify-content: center;
@@ -90,7 +90,7 @@ transition-duration: 0.5s;
     color: white;
 }
 .registrarButton button:hover{
-    background-color: hsla(34, 98%, 43%, 0.667) ;
+    background-color: hsla(0, 97%, 60%, 0.667) ;
 scale: 1.1;
 transition-duration: 0.5s;
 }
