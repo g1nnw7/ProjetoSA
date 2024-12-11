@@ -1,14 +1,19 @@
+body{
+  background-image: url(IMAGENS/3.png);  /* Define a imagem de fundo para o elemento */
+  background-attachment: fixed;
+  background-repeat: no-repeat;  /* Define a repetição da imagem de fundo */
+  background-size: cover;   /* Define o tamanho da imagem de fundo para cobrir todo o elemento */
+
+}
+
 #fundo {
-    background-image: url(IMAGENS/3.png);  /* Define a imagem de fundo para o elemento */
-    background-repeat: no-repeat;  /* Define a repetição da imagem de fundo */
-    background-size: cover;   /* Define o tamanho da imagem de fundo para cobrir todo o elemento */
     justify-content: center;   /* Define a justificação do conteúdo dentro do elemento */
     position: absolute;   /* Define a posição do objeto ONDE VC QUISER!!!! */
     top: 50%;   /* Define a posição do elemento no centro da página */
     left: 50%;
     transform: translate(-50%, -50%);   /* Transforma a posição do elemento para que ele fique no centro da página */
     width: 100%;   /* Define a largura e altura do elemento para que ele ocupe todo o espaço disponível */
-    height: 100%;
+    min-height: 100%;
     z-index: -1;   /* Define a ordem de empilhamento do elemento para que ele fique atrás do conteúdo */
   }
   #escrita h1{
@@ -59,7 +64,7 @@
   #resultado{
     text-align: center;
     border: radius 50px;
-    height: 35px;
+    
     font-size: 25px;
     color: rgb(255, 255, 255);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
