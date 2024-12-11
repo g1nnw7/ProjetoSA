@@ -4,9 +4,9 @@ function saibaMais1(){
 }
 
 function saibaMais2(){
-    window.location.href= "calcalo.html";
+    window.location.href= "calcMacro.html"
 }
 
 function SaibaMais3(){
-    window.location.href= "";
+    window.location.href= "calcCalo.html"
 }
