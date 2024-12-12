@@ -108,7 +108,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         // Obter os usuários do LocalStorage ou um array vazio se não houver dados
         let macros = JSON.parse(localStorage.getItem('macros')) || [];
         // Filtrar o usuário a ser excluído pelo ID
-        macros = macros.filter(macro => macro.id != usuarioParaExcluirId);
+         macros = macros.filter(macro => macro.id != usuarioParaExcluirId);
         // Atualizar o LocalStorage sem o usuário excluído
         localStorage.setItem('macros', JSON.stringify(macros));
         // Fechar o modal após a exclusão e recarregar a tabela
