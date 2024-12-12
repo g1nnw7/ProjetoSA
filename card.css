@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -8,7 +9,7 @@ body{
     align-items: center;
     height: 100vh;
     gap: 16px;
-    background-image: url(IMAGENS/2.png);
+    background-image: url(IMAGENS/fundoinicial2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -98,4 +99,7 @@ transition-duration: 0.5s;
     background-color: hsla(120, 98%, 43%, 0.667) ;
 scale: 1.1;
 transition-duration: 0.5s;
+}
+#macroNutri{
+    font-size: 1.5vh;
 }
