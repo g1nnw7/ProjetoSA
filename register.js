@@ -16,7 +16,7 @@ function cadastra(){
 
         bancoDeDados.push(usuario);
         localStorage.setItem("bancoDeDados", JSON.stringify(bancoDeDados));
-        alert("Usuário cadastrado com sucesso!");
+        alert("Usuário cadastrado com sucesso!")
         campoNovoLogin.value = null;
         campoNovaSenha.value = null;
         campoRepSenha.value = null;

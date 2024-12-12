@@ -19,12 +19,17 @@ document.addEventListener("DOMContentLoaded", function(){
     if(verificarUsuario == null){
         document.getElementById("registrarButton").style.display = 'block';
         document.getElementById("loginButton").style.display = 'block';
-        document.getElementById("botaoRegistrar");
+        document.getElementById("deslogar").style.display = 'none';
     }
     else{
         document.getElementById("registrarButton").style.display = 'none';
         document.getElementById("loginButton").style.display = 'none';
-        document.getElementById("botaoRegistrar").innerText = user;
+        document.getElementById("deslogar").style.display = 'block';
+        document.getElementById("botaoUsuario").innerText = user.toUpperCase();
 
     }
 })
+function deslogar(){
+    localStorage.clear()
+    location.reload()
+}
