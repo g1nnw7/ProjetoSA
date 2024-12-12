@@ -14,6 +14,7 @@ function login(){
             if(usuario.login == login && usuario.senha == senha){
                 mensagem = "Parabéns, você logou!";
                 localStorage.setItem("logado", JSON.stringify(usuario));
+                localStorage.setItem("user", JSON.stringify(usuario.login));
                 window.location.href= "card.html";
                 break;
             }

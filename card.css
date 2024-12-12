@@ -58,7 +58,7 @@ background-color: hsla(120, 98%, 43%, 0.667) ;
 scale: 1.1;
 transition-duration: 0.5s;
 }
-.loginButton button{
+#loginButton button{
     height: 30px;
     width: 90px;
     position: fixed; top: 10px; right: 10px;
@@ -74,7 +74,7 @@ transition-duration: 0.5s;
     color: white;
     border: none;
 }
-.registrarButton button{
+#registrarButton button{
     height: 30px;
     width: 90px;
     position: fixed; top: 10px; right: 50px;
@@ -90,16 +90,28 @@ transition-duration: 0.5s;
     border: 0.4vh solid #F8F6F3;
     color: white;
 }
-.registrarButton button:hover{
-    background-color: hsla(0, 97%, 60%, 0.667) ;
+#registrarButton button:hover{
+background-color: hsla(0, 97%, 60%, 0.667) ;
 scale: 1.1;
 transition-duration: 0.5s;
 }
-.loginButton button:hover{
-    background-color: hsla(120, 98%, 43%, 0.667) ;
+#loginButton button:hover{
+ background-color: hsla(120, 98%, 43%, 0.667) ;
 scale: 1.1;
 transition-duration: 0.5s;
 }
 #macroNutri{
     font-size: 1.5vh;
 }
+#botaoRegistrar{
+    position: fixed; top: 10px; right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%;
+    border-radius: 1.5vh;
+    font-size: 2.5vh;
+    margin-block: 0.5%;
+    cursor: pointer;
+    color: white;
+} 
